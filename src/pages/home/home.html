@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-toolbar color="dark">
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+  <ion-card (click)="mobile()">
+    <img src="assets/imgs/mobile-app.jpg"/>
+    <ion-card-content>
+      <div >Mobile App</div>
+      <div>41 Listings</div>
+    </ion-card-content>
+   
+  </ion-card>
+
+  <ion-card (click)="web()">
+    <img src="assets/imgs/web.png"/>
+    <ion-card-content>
+      <div >Web Dev</div>
+      <div>41 Listings</div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="iot()"> 
+    <img src="assets/imgs/iot.png"/>
+    <ion-card-content>
+      <div >Iot</div>
+      <div>41 Listings</div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="gd()">
+    <img src="assets/imgs/gd.jpg"/>
+    <ion-card-content>
+      <div >Graphic Design</div>
+      <div>41 Listings</div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card (click)="qa()">
+      <img src="assets/imgs/qa.jpg"/>
+      <ion-card-content>
+        <div >Quality Assurance</div>
+        <div>41 Listings</div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card (click)="hr()">
+        <img src="assets/imgs/hr.jpg"/>
+        <ion-card-content>
+          <div >Marketing</div>
+          <div>41 Listings</div>
+        </ion-card-content>
+      </ion-card>
+      <ion-card (click)="vr()">
+          <img src="assets/imgs/vr.jpg"/>
+          <ion-card-content>
+            <div >Virtual Reality</div>
+            <div>41 Listings</div>
+          </ion-card-content>
+        </ion-card>
+     
+</ion-content>
+
