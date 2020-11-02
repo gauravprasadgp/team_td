@@ -29,6 +29,8 @@ jobs:
 #     - name: Build debug APK
 #       working-directory: ./platforms/android      
 #       run: bash ./gradlew assembleDebug --stacktrace
+    - name: App script
+      run: npm i @ionic/app-scripts@3.2.2
     - name: Use coturiv/setup-ionic
       uses: coturiv/setup-ionic@v1
       with:
