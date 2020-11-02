@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: '8.x'
     - run: npm install -g ionic@3 
-    - run: npm install -g cordova@9
+    - run: npm install -g cordova@latest
     - run: npm install
     - run: npm i @ionic/app-scripts@3.2.2
     - name: Cordova
